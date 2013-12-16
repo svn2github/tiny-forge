@@ -1,0 +1,447 @@
+# Copyright (C) 2013 Tomas Mackevicius
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tiny Forge\n"
+"POT-Creation-Date: 2013-09-29 00:03-0600\n"
+"PO-Revision-Date: 2013-10-02 11:52+0100\n"
+"Last-Translator: Tommy Wikstrom <tommy.wikstrom@gmail.com>\n"
+"Language-Team: Tiny Forge Team\n"
+"Language: Svenska\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: footer.php:44
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:44
+#, php-format
+msgid "Powered by %s"
+msgstr "Drivs med %s"
+
+#: content-page.php:19 content.php:45 image.php:100
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: content-page.php:22 functions.php:673 content-aside.php:25
+#: content-image.php:24 content-link.php:23 content-quote.php:22
+#: content-status.php:38 content.php:26 content.php:52 image.php:35
+#: page-templates/links.php:26
+msgid "Edit"
+msgstr "Redigera"
+
+#: category.php:20
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:121
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#: functions.php:146
+msgid "Main Sidebar"
+msgstr "Primär sidopanel"
+
+#: functions.php:148
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+"Visas tillsammans med inlägg och sidor förutom i den valfria mallen för "
+"startsidan som har sina egna widgetfält"
+
+#: functions.php:156
+msgid "First Front Page Widget Area"
+msgstr "Första widgetfältet för startsidan"
+
+#: functions.php:158 functions.php:168
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+"Visas vid användning av den valfria mallen för startsidan när en statisk "
+"startsida är angiven"
+
+#: functions.php:166
+msgid "Second Front Page Widget Area"
+msgstr "Andra widgetfältet för startsidan"
+
+#: functions.php:176
+msgid "First Footer Widget Area"
+msgstr "Sidfotens första widgetfält"
+
+#: functions.php:178
+msgid ""
+"Found at the bottom of every page (except 404s) as the footer. Left Side."
+msgstr ""
+"Återfinns längst ner på varje sida (utom 404:or) som sidfot. Vänstra sidan."
+
+#: functions.php:186
+msgid "Second Footer Widget Area"
+msgstr "Sidfotens andra widgetfält"
+
+#: functions.php:188
+msgid "Found at the bottom of every page (except 404s) as the footer. Center."
+msgstr "Återfinns längst ner på varje sida (utom 404:or) som sidfot. I mitten."
+
+#: functions.php:196
+msgid "Third Footer Widget Area"
+msgstr "Sidfotens tredje widgetfält"
+
+#: functions.php:198
+msgid ""
+"Found at the bottom of every page (except 404s) as the footer. Right Side."
+msgstr ""
+"Återfinns längst ner på varje sida (utom 404:or) som sidfot. Högra sidan."
+
+#: functions.php:206
+msgid "Footer Copyright Widget Area"
+msgstr "Sidfotens Copyright widgetfält"
+
+#: functions.php:208
+msgid "Found at the bottom of every page as the footer. Left Side."
+msgstr "Återfinns längst ner på varje sida som sidfot. Vänstra sidan."
+
+#: functions.php:448
+#, php-format
+msgid "Page %s"
+msgstr "Sida %s"
+
+#: functions.php:504 single.php:18
+msgid "Post navigation"
+msgstr "Inläggsnavigering"
+
+#: functions.php:505
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Äldre inlägg"
+
+#: functions.php:506
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyare inlägg <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:552 functions.php:594
+#, php-format
+msgid "View all posts by %s"
+msgstr "Visa alla inlägg av %s"
+
+#: functions.php:557
+#, php-format
+msgid ""
+"%1$s <span class=\"meta-separator\">&bull;</span> <span class=\"by-author\">"
+"%2$s</span> "
+msgstr ""
+"%1$s <span class=\"meta-separator\">&bull;</span> <span class=\"by-author\">"
+"%2$s</span> "
+
+#: functions.php:580
+msgid "</span>, <span itemprop=\"articleSection\">"
+msgstr "</span>, <span itemprop=\"articleSection\">"
+
+#: functions.php:583
+msgid ", "
+msgstr ", "
+
+#: functions.php:600
+#, php-format
+msgid ""
+"Posted in <span itemprop=\"articleSection\">%1$s</span> and tagged <span "
+"itemprop=\"keywords\">%2$s</span> on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+"Postad i <span itemprop=\"articleSection\">%1$s</span> med etikett <span "
+"itemprop=\"keywords\">%2$s</span> den %3$s<span class=\"by-author\"> av "
+"%4$s</span>."
+
+#: functions.php:602
+#, php-format
+msgid ""
+"Posted in <span itemprop=\"articleSection\">%1$s</span> on %3$s<span class="
+"\"by-author\"> by %4$s</span>."
+msgstr ""
+"Postad i <span itemprop=\"articleSection\">%1$s</span> den %3$s<span class="
+"\"by-author\"> av %4$s</span>."
+
+#: functions.php:604
+#, php-format
+msgid "Posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Postad den %3$s<span class=\"by-author\"> av %4$s</span>."
+
+#: functions.php:641
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:641
+msgid "(Edit)"
+msgstr "(Redigera)"
+
+#: functions.php:656
+msgid "Post author"
+msgstr "Inläggsförfattare"
+
+#: functions.php:662
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s kl %2$s"
+
+#: functions.php:668
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#: functions.php:677
+msgid "Reply"
+msgstr "Svar"
+
+#: content-aside.php:13 content-image.php:11 content-link.php:12
+#: content-quote.php:11 content-status.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Läs vidare <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:18 content-link.php:16 content-quote.php:15
+#: content-status.php:13
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalänk till %s"
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35 content.php:24 content.php:32
+msgid "Leave a reply"
+msgstr "Lämna ett svar"
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35
+msgid "1 Reply"
+msgstr "1 Svar"
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35
+msgid "% Replies"
+msgstr "% Svar"
+
+#: content-link.php:10
+msgid "Link"
+msgstr "Länk"
+
+#: content.php:14
+msgid "Featured post"
+msgstr "Utvalt inlägg"
+
+#: content.php:24 content.php:32
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: content.php:24 content.php:32
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+#: content.php:44
+msgid "...continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "...läs vidare <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:71
+#, php-format
+msgid "About %s"
+msgstr "Om %s"
+
+#: content.php:75
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Visa alla inlägg av %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: header.php:61
+msgid "Menu"
+msgstr "Meny"
+
+#: header.php:62
+msgid "Skip to content"
+msgstr "Hoppa till innehåll"
+
+#: 404.php:15
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Det här är lite pinsamt, eller hur?"
+
+#: 404.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Det verkar som om vi inte kan hitta det du är ute efter. Kanske en sökning "
+"kan hjälpa."
+
+#: archive.php:27
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Dagsarkiv: %s"
+
+#: archive.php:29
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Månadsarkiv: %s"
+
+#: archive.php:31
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Årsarkiv: %s"
+
+#: archive.php:33
+msgid "Archives"
+msgstr "Arkiv"
+
+#: comments.php:40
+msgid "Comment navigation"
+msgstr "Kommentarsnavigering"
+
+#: comments.php:41
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommetarer"
+
+#: comments.php:42
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Kommentarer är inaktiverade."
+
+#: content-none.php:11 index.php:47 search.php:32
+msgid "Nothing Found"
+msgstr "Ingenting hittades"
+
+#: content-none.php:15 index.php:51
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+"Ledsen, men inga resultat hittades. Kanske en sökning kan hjälpa för att "
+"finna ett relaterat inlägg."
+
+#: index.php:36
+msgid "No posts to display"
+msgstr "Inga inlägg att visa"
+
+#: index.php:40
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+"Klar att publicera ditt första inlägg? <a href=\"%s\">Kom igång här</a>."
+
+#: author.php:31
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Författararkiv: %s"
+
+#: author.php:57
+#, php-format
+msgid "About <span itemprop=\"name\">%s</span>"
+msgstr "Om <span itemprop=\"name\">%s</span>"
+
+#: image.php:24
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\" itemprop=\"datePublished\"><time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\" itemprop=\"contentUrl\">%4$s &times; %5$s</a> in <a href="
+"\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">Publicerat </span> <span "
+"class=\"entry-date\" itemprop=\"datePublished\"><time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time></span> den <a href=\"%3$s\" title=\"Länk till "
+"bild i full storlek\" itemprop=\"contentUrl\">%4$s &times; %5$s</a> i <a "
+"href=\"%6$s\" title=\"Tillbaka till %7$s\" rel=\"gallery\">%8$s</a>."
+
+#: image.php:39
+msgid "&larr; Previous"
+msgstr "&larr; Föregående"
+
+#: image.php:40
+msgid "Next &rarr;"
+msgstr "Nästa &rarr;"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: search.php:36
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Tyvärr, ingenting matchade ditt sökriterium. Vänligen försök igen med några "
+"andra sökord."
+
+#: tag.php:19
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Etikettarkiv: %s"
+
+#: inc/theme-customizer.php:32 inc/theme-customizer.php:42
+msgid "Logo"
+msgstr "Logga"
+
+#. Additional translations not generated by PoEdit
+#. ===============================================
+#. Theme Name of the plugin/theme
+msgid "Tiny Forge"
+msgstr "Tiny Forge"
+
+#. Theme URI of the plugin/theme
+msgid "http://wordpress.org/themes/tiny-forge"
+msgstr "http://wordpress.org/themes/tiny-forge"
+
+#. Description of the plugin/theme
+msgid ""
+"Tiny Forge theme encompass all the best features of the default WordPress "
+"themes in one place, plus more usability and code improvements! It features "
+"elegant mobile-first HTML5 ready structure of Twenty Twelve, custom per-post "
+"headers and three footer widgets from Twenty Eleven (plus forth footer "
+"widget to insert your copyright information), icon webfont support from "
+"Twenty Thirteen and Schema.org microdata format support. It&#39;s all there, "
+"you have everything in one neat package. Also you can upload your custom "
+"Header Logo to display it next to Site Title and Description. Tiny Forge can "
+"be used as a learning tool or your own little web development &quot;"
+"framework&quot;. With its unique &quot;Coding Tips system&quot; Tiny Forge "
+"helps to understand how to extend parent themes and build your own child "
+"themes, hacking them the way you want it. You get the best coding examples "
+"from default WordPress themes and the best hacks from the child theme. "
+"Please read readme.txt for a quick start guide."
+msgstr ""
+"Temat Tiny Forge omfattar alla de bästa egenskaperna hos WordPress "
+"standardteman på ett ställe, plus större användbarhet och förbättrad "
+"kodning! Det omfattar elegant primärt-mobil HTML5-klar struktur från Twenty "
+"Twelve, valfria per-post sidhuvuden och tre sidfot-widgets från Twenty "
+"Eleven (plus en fjärde sidfot-widget för att sätta in din copyright-"
+"information), ikon webfont stöd från Twenty Thirteen och Schema.org "
+"microdata formatstöd. Allt finns där, du har allting i en behändig "
+"förpackning. Dessutom kan du ladda upp din valfria sidhuvuds-logga och visa "
+"den intill hemsidetiteln och beskrivningen. Tiny Forge kan också användas "
+"som ett läromedel eller som ditt eget lilla webbutvecklings-&quot;"
+"ramverk&quot;. Med sitt unika &quot;kodningstips-system&quot; hjälper Tiny "
+"Forge dig att förstå hur du utvidgar föräldrateman och bygger dina egna "
+"barnteman, och hackar dem på det sätt du vill ha dem. Du får de bästa "
+"kodningsexemplen från valfria WordPress-teman och de bästa hacken från "
+"barntemat. Vänligen läs readme.txt så finner du en snabbstart-guide."
+
+#. Author of the plugin/theme
+msgid "Tomas Mackevicius"
+msgstr "Tomas Mackevicius"
+
+#. Template Name of the plugin/theme
+msgid "Front Page Template"
+msgstr "Mall för startsida"
+
+#. Template Name of the plugin/theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr "Fullbredd sidmall, ingen sidopanel"
+
+#. Template Name of the plugin/theme
+msgid "Links"
+msgstr "Länkar"
