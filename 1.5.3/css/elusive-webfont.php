@@ -1,10 +1,14 @@
+<?php header("Content-type: text/css"); ?>
+<?php 
+$ur = urldecode($_GET['url']);
+?>
 @font-face {
   font-family: 'Elusive-Icons';
-  src:url('../inc/fonts/Elusive-Icons.eot');
-  src:url('../inc/fonts/Elusive-Icons.eot?#iefix') format('embedded-opentype'),
-    url('../inc/fonts/Elusive-Icons.woff') format('woff'),
-    url('../inc/fonts/Elusive-Icons.ttf') format('truetype'),
-    url('../inc/fonts/Elusive-Icons.svg#Elusive-Icons') format('svg');
+  src:url('<?php echo $ur; ?>/inc/fonts/Elusive-Icons.eot');
+  src:url('<?php echo $ur; ?>/inc/fonts/Elusive-Icons.eot?#iefix') format('embedded-opentype'),
+url('<?php echo $ur; ?>/inc/fonts/Elusive-Icons.woff') format('woff'),
+url('<?php echo $ur; ?>/inc/fonts/Elusive-Icons.ttf') format('truetype'),
+url('<?php echo $ur; ?>/inc/fonts/Elusive-Icons.svg#Elusive-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }

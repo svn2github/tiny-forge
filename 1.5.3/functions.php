@@ -356,7 +356,7 @@ function tinyforge_scripts_styles() {
 	$wp_styles->add_data( 'tinyforge-ie', 'conditional', 'lt IE 9' );
 
 	// 5.7 - Add CSS file of the Elusive-icon font.
-	wp_enqueue_style( 'elusive-iconfont-style', get_template_directory_uri() . '/css/elusive-webfont.css', 
+	wp_enqueue_style( 'elusive-iconfont-style', get_template_directory_uri() . '/css/elusive-webfont.php?url='.urlencode(get_template_directory_uri()),
 	array(), 
 	'1.0', 
 	'all' );
