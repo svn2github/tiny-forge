@@ -1,0 +1,447 @@
+# Copyright (C) 2013 Tomas Mackevicius
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tiny Forge 1.5.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/tiny-forge\n"
+"POT-Creation-Date: 2014-03-23 01:14-0600\n"
+"PO-Revision-Date: 2014-03-23 01:15-0600\n"
+"Last-Translator: Tomas Mackevicius <services@mtomas.com>\n"
+"Language-Team: Tiny Forge Team <services@mtomas.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: archive.php:27
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:29
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:33
+msgid "Archives"
+msgstr ""
+
+#: author.php:31
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:63
+#, php-format
+msgid "About <span itemprop=\"name\">%s</span>"
+msgstr ""
+
+#: category.php:20
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: comments.php:29
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:41
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:42
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:13 content-image.php:11 content-link.php:12
+#: content-quote.php:11 content-status.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-aside.php:18 content-link.php:16 content-quote.php:15
+#: content-status.php:13
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35 content.php:23
+msgid "Leave a reply"
+msgstr ""
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35
+msgid "1 Reply"
+msgstr ""
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35
+msgid "% Replies"
+msgstr ""
+
+#: content-aside.php:25 content-image.php:24 content-link.php:23
+#: content-page.php:22 content-quote.php:22 content-status.php:38
+#: content.php:25 content.php:52 functions.php:883 image.php:35
+#: page-templates/links.php:26
+msgid "Edit"
+msgstr ""
+
+#: content-link.php:10
+msgid "Link"
+msgstr ""
+
+#: content-none.php:11 index.php:47 search.php:32
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:15 index.php:51
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: content-page.php:19 content.php:46 image.php:100
+msgid "Pages:"
+msgstr ""
+
+#: content.php:14
+msgid "Featured article"
+msgstr ""
+
+#: content.php:23 content.php:31
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:23 content.php:31
+msgid "% Comments"
+msgstr ""
+
+#: content.php:45
+msgid "...continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:64
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: content.php:68
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: footer.php:50
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:50
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: functions.php:133
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:173
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:175
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: functions.php:183
+msgid "First Front Page Widget Area"
+msgstr ""
+
+#: functions.php:185 functions.php:195
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+
+#: functions.php:193
+msgid "Second Front Page Widget Area"
+msgstr ""
+
+#: functions.php:203
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:205
+msgid ""
+"Found at the bottom of every page (except 404s) as the footer. Left Side."
+msgstr ""
+
+#: functions.php:213
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:215
+msgid "Found at the bottom of every page (except 404s) as the footer. Center."
+msgstr ""
+
+#: functions.php:223
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions.php:225
+msgid ""
+"Found at the bottom of every page (except 404s) as the footer. Right Side."
+msgstr ""
+
+#: functions.php:233
+msgid "Footer Copyright Widget Area"
+msgstr ""
+
+#: functions.php:235
+msgid "Found at the bottom of every page as the footer. Left Side."
+msgstr ""
+
+#: functions.php:660
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:719 single.php:18
+msgid "Post navigation"
+msgstr ""
+
+#: functions.php:720
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: functions.php:721
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:759 functions.php:806
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions.php:771
+#, php-format
+msgid ""
+"<span class=\"by-author\">%2$s</span> <span class=\"meta-separator\">&bull;</"
+"span> %1$s "
+msgstr ""
+
+#: functions.php:792
+msgid "</span>, <span itemprop=\"articleSection\">"
+msgstr ""
+
+#: functions.php:795
+msgid ", "
+msgstr ""
+
+#: functions.php:812
+#, php-format
+msgid ""
+"Posted in <span itemprop=\"articleSection\">%1$s</span>. Tags: <span "
+"itemprop=\"keywords\">%2$s</span> on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+
+#: functions.php:814
+#, php-format
+msgid ""
+"Posted in <span itemprop=\"articleSection\">%1$s</span> on %3$s<span class="
+"\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: functions.php:816
+#, php-format
+msgid "Posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: functions.php:851
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:851
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:866
+msgid "Post author"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: functions.php:872
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:878
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:887
+msgid "Reply"
+msgstr ""
+
+#: header.php:37
+msgid ""
+"Advanced features of this website require that you enable JavaScript in your "
+"browser. Thank you!"
+msgstr ""
+
+#: header.php:59
+msgid "Menu"
+msgstr ""
+
+#: header.php:60
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:24
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\" itemprop=\"datePublished\"><time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\" itemprop=\"contentUrl\">%4$s &times; %5$s</a> in <a href="
+"\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr ""
+
+#: image.php:39
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:40
+msgid "Next &rarr;"
+msgstr ""
+
+#: inc/admin-notice.php:23
+#, php-format
+msgid ""
+"Thank you for using Tiny Forge! Please check out a valuable user guide: <a "
+"target=\"_blank\" href=\"%s\">How to use Tiny Forge and its child themes: a "
+"comprehensive guide</a>. Happy coding! <a href=\"%s\">(hide this message)</a>"
+msgstr ""
+
+#: inc/theme-customizer.php:23
+msgid "Site Title Color"
+msgstr ""
+
+#: inc/theme-customizer.php:26
+msgid "Display Site Title &amp; Tagline"
+msgstr ""
+
+#: inc/theme-customizer.php:36 inc/theme-customizer.php:46
+msgid "Logo"
+msgstr ""
+
+#: index.php:36
+msgid "No posts to display"
+msgstr ""
+
+#: index.php:40
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:36
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: tag.php:19
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#. Additional translations not generated by PoEdit
+#. ===============================================
+#. Theme Name of the plugin/theme
+msgid "Tiny Forge"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://wordpress.org/themes/tiny-forge"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Tiny Forge theme encompass all the best features of the default WordPress "
+"themes in one place, plus more usability and code improvements! It features "
+"elegant mobile-first HTML5 ready structure of Twenty Twelve, custom per-post "
+"headers and three footer widgets from Twenty Eleven (plus forth footer "
+"widget to insert your copyright information), icon webfont support from "
+"Twenty Thirteen and Schema.org microdata format support. It&#39;s all there, "
+"you have everything in one neat package. Also you can upload your custom "
+"Header Logo to display it next to Site Title and Description. Tiny Forge can "
+"be used as a learning tool or your own little web development &quot;"
+"framework&quot;. With its unique &quot;Coding Tips system&quot; Tiny Forge "
+"helps to understand how to extend parent themes and build your own child "
+"themes, hacking them the way you want it. You get the best coding examples "
+"from default WordPress themes and the best hacks from the child theme. "
+"Please read readme.txt for a quick start guide."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tomas Mackevicius"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Links"
+msgstr ""
+
+# Expressions used in Tiny Forge Child Theme Example
+#: functions.php:505
+msgid "<span class=\"meta-nav\">&laquo;</span> OLDER ARTICLES"
+msgstr ""
+
+#: functions.php:506
+msgid "NEWER ARTICLES <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""

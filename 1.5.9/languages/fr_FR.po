@@ -1,0 +1,455 @@
+# Copyright (C) 2013 Tomas Mackevicius
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tiny Forge\n"
+"POT-Creation-Date: 2013-09-29 00:03-0600\n"
+"PO-Revision-Date: 2013-09-29 13:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: Dolordo <dolordo@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplural=2; plural=(n>1);\n"
+"Language: French\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: footer.php:44
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:44
+#, php-format
+msgid "Powered by %s"
+msgstr "Propulsé par %s"
+
+#: content-page.php:19 content.php:45 image.php:100
+msgid "Pages:"
+msgstr "Pages:"
+
+#: content-page.php:22 functions.php:673 content-aside.php:25
+#: content-image.php:24 content-link.php:23 content-quote.php:22
+#: content-status.php:38 content.php:26 content.php:52 image.php:35
+#: page-templates/links.php:26
+msgid "Edit"
+msgstr "Editer"
+
+#: category.php:20
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:121
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: functions.php:146
+msgid "Main Sidebar"
+msgstr "Colonne latérale principale"
+
+#: functions.php:148
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+"Apparaît sur les articles et pages, sauf sur le template de page principale "
+"optionnel, avec ses propres widgets"
+
+#: functions.php:156
+msgid "First Front Page Widget Area"
+msgstr "Première Zone de Widget Page Principale"
+
+#: functions.php:158 functions.php:168
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+"Apparaît lorsque vous utilisez le template de page principale optionnel en "
+"tant que page principale statique"
+
+#: functions.php:166
+msgid "Second Front Page Widget Area"
+msgstr "Seconde Zone de Widget Page Principale"
+
+#: functions.php:176
+msgid "First Footer Widget Area"
+msgstr "Première Zone de Widget pied de page"
+
+#: functions.php:178
+msgid ""
+"Found at the bottom of every page (except 404s) as the footer. Left Side."
+msgstr ""
+"Présent au bas de chaque page (exceptés les 404) en tant que pied de page. "
+"Côté gauche."
+
+#: functions.php:186
+msgid "Second Footer Widget Area"
+msgstr "Deuxième Zone de Widget pied de page"
+
+#: functions.php:188
+msgid "Found at the bottom of every page (except 404s) as the footer. Center."
+msgstr ""
+"Présent au bas de chaque page (exceptés les 404) en tant que pied de page. "
+"Centre."
+
+#: functions.php:196
+msgid "Third Footer Widget Area"
+msgstr "Troisième Zone de Widget pied de page"
+
+#: functions.php:198
+msgid ""
+"Found at the bottom of every page (except 404s) as the footer. Right Side."
+msgstr ""
+"Présent au bas de chaque page (exceptés les 404) en tant que pied de page. "
+"Côté Droit."
+
+#: functions.php:206
+msgid "Footer Copyright Widget Area"
+msgstr "Zone de pied de page de Copyright"
+
+#: functions.php:208
+msgid "Found at the bottom of every page as the footer. Left Side."
+msgstr "Présent au bas de chaque page en tant que pied de page. Côté gauche."
+
+#: functions.php:448
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: functions.php:504 single.php:18
+msgid "Post navigation"
+msgstr "Navigation Article"
+
+#: functions.php:505
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles plus anciens"
+
+#: functions.php:506
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:552 functions.php:594
+#, php-format
+msgid "View all posts by %s"
+msgstr "Voir tous les articles de %s"
+
+#: functions.php:557
+#, php-format
+msgid ""
+"%1$s <span class=\"meta-separator\">&bull;</span> <span class=\"by-author\">"
+"%2$s</span> "
+msgstr ""
+"%1$s <span class=\"meta-separator\">&bull;</span> <span class=\"by-author\">"
+"%2$s</span> "
+
+#: functions.php:580
+msgid "</span>, <span itemprop=\"articleSection\">"
+msgstr "</span>, <span itemprop=\"articleSection\">"
+
+#: functions.php:583
+msgid ", "
+msgstr ", "
+
+#: functions.php:600
+#, php-format
+msgid ""
+"Posted in <span itemprop=\"articleSection\">%1$s</span> and tagged <span "
+"itemprop=\"keywords\">%2$s</span> on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+"Posté dans <span itemprop=\"articleSection\">%1$s</span> et taggué <span "
+"itemprop=\"keywords\">%2$s</span> le %3$s<span class=\"by-author\"> par "
+"%4$s</span>."
+
+#: functions.php:602
+#, php-format
+msgid ""
+"Posted in <span itemprop=\"articleSection\">%1$s</span> on %3$s<span class="
+"\"by-author\"> by %4$s</span>."
+msgstr ""
+"Posté dans <span itemprop=\"articleSection\">%1$s</span> le %3$s<span class="
+"\"by-author\"> par %4$s</span>."
+
+#: functions.php:604
+#, php-format
+msgid "Posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Posté le %3$s<span class=\"by-author\"> par %4$s</span>."
+
+#: functions.php:641
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:641
+msgid "(Edit)"
+msgstr "(Editer)"
+
+#: functions.php:656
+msgid "Post author"
+msgstr "Auteur de l'article"
+
+#: functions.php:662
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: functions.php:668
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation."
+
+#: functions.php:677
+msgid "Reply"
+msgstr "Répondre"
+
+#: content-aside.php:13 content-image.php:11 content-link.php:12
+#: content-quote.php:11 content-status.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:18 content-link.php:16 content-quote.php:15
+#: content-status.php:13
+#, php-format
+msgid "Permalink to %s"
+msgstr "Lien permanent pour %s"
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35 content.php:24 content.php:32
+msgid "Leave a reply"
+msgstr "Répondre"
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35
+msgid "1 Reply"
+msgstr "1 Réponse"
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35
+msgid "% Replies"
+msgstr "% Réponses"
+
+#: content-link.php:10
+msgid "Link"
+msgstr "Lien"
+
+#: content.php:14
+msgid "Featured post"
+msgstr "Article mis en avant"
+
+#: content.php:24 content.php:32
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: content.php:24 content.php:32
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: content.php:44
+msgid "...continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "...lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:71
+#, php-format
+msgid "About %s"
+msgstr "A propos de %s"
+
+#: content.php:75
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Voir tous les articles de %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: header.php:61
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:62
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: 404.php:15
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "C'est quelque peu embarassant, n'est-ce pas ?"
+
+#: 404.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semblerait que nous n'arrivions pas à trouver ce que vous recherchez. "
+"Peut-être qu'une recherche vous sera utile."
+
+#: archive.php:27
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archives par jour : %s"
+
+#: archive.php:29
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archives par mois : %s"
+
+#: archive.php:31
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archives par année : %s"
+
+#: archive.php:33
+msgid "Archives"
+msgstr "Archives"
+
+#: comments.php:40
+msgid "Comment navigation"
+msgstr "Navigation par commentaire"
+
+#: comments.php:41
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires plus anciens"
+
+#: comments.php:42
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: content-none.php:11 index.php:47 search.php:32
+msgid "Nothing Found"
+msgstr "Rien n'a été trouvé"
+
+#: content-none.php:15 index.php:51
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+"Toute nos excuses, mais aucun résultat n'a été trouvé. Peut-être qu'une "
+"recherche vous aidera à trouver un article similaire."
+
+#: index.php:36
+msgid "No posts to display"
+msgstr "Pas d'article à afficher"
+
+#: index.php:40
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier article ? <a href=\"%1$s\">Commencez par ici</"
+"a>."
+
+#: author.php:31
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archives de l'auteur : %s"
+
+#: author.php:57
+#, php-format
+msgid "About <span itemprop=\"name\">%s</span>"
+msgstr "A propos de <span itemprop=\"name\">%s</span>"
+
+#: image.php:24
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\" itemprop=\"datePublished\"><time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\" itemprop=\"contentUrl\">%4$s &times; %5$s</a> in <a href="
+"\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">Publié le </span> <span class="
+"\"entry-date\" itemprop=\"datePublished\"><time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time></span> à <a href=\"%3$s\" title=\"Link to full-"
+"size image\" itemprop=\"contentUrl\">%4$s &times; %5$s</a> dans <a href="
+"\"%6$s\" title=\"Retourner à %7$s\" rel=\"gallery\">%8$s</a>."
+
+#: image.php:39
+msgid "&larr; Previous"
+msgstr "&larr; Précédent"
+
+#: image.php:40
+msgid "Next &rarr;"
+msgstr "Suivant &rarr;"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour: %s"
+
+#: search.php:36
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, aucun article ne correspond à vos critères de rehcerche. Merci "
+"d'essayer de nouveau avec d'autres mot-clés."
+
+#: tag.php:19
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archives du mot-clé : %s"
+
+#: inc/theme-customizer.php:32 inc/theme-customizer.php:42
+msgid "Logo"
+msgstr "Logo"
+
+#. Additional translations not generated by PoEdit
+#. ===============================================
+#. Theme Name of the plugin/theme
+msgid "Tiny Forge"
+msgstr "Tiny Forge"
+
+#. Theme URI of the plugin/theme
+msgid "http://wordpress.org/themes/tiny-forge"
+msgstr "http://wordpress.org/themes/tiny-forge"
+
+#. Description of the plugin/theme
+msgid ""
+"Tiny Forge theme encompass all the best features of the default WordPress "
+"themes in one place, plus more usability and code improvements! It features "
+"elegant mobile-first HTML5 ready structure of Twenty Twelve, custom per-post "
+"headers and three footer widgets from Twenty Eleven (plus forth footer "
+"widget to insert your copyright information), icon webfont support from "
+"Twenty Thirteen and Schema.org microdata format support. It&#39;s all there, "
+"you have everything in one neat package. Also you can upload your custom "
+"Header Logo to display it next to Site Title and Description. Tiny Forge can "
+"be used as a learning tool or your own little web development &quot;"
+"framework&quot;. With its unique &quot;Coding Tips system&quot; Tiny Forge "
+"helps to understand how to extend parent themes and build your own child "
+"themes, hacking them the way you want it. You get the best coding examples "
+"from default WordPress themes and the best hacks from the child theme. "
+"Please read readme.txt for a quick start guide."
+msgstr ""
+"Le thème Tiny Forge englobe toutes les meilleures fonctionnalités du théme "
+"Wordpress par défaut, plus une facilité d'usage et des amméliorations du "
+"code ! Ses particularités incluent les fonctionnaltiés mobile et élégantes "
+"de la structure de Twenty Twelve en HTML5, les en-têtes par article "
+"ajustables et les trois widget de pied de page de Twenty Eleven (et un "
+"quatrième widget de pied de page pour ajouter vos information de copyright), "
+"le support inclus dans Twenty Thirteen des icônes 'webfont' et le support du "
+"format de microdonnées de Schema.org. Tout est inclus, vous avez tout dans "
+"un seul thème propre et intégré. Egalement, vous pouvez uploader votre "
+"propre logo d'en-tête pour l'afficher à côté du titre du site et de la "
+"description. Tiny Forge peut être utilisé comme outil d'apprentissage ou "
+"votre propre petit framework de développement. Avec son unique \"Systéme de "
+"trucs de codage\" Tiny Forge aide à comprendre comment étendre un thème "
+"parent et construire votre propre thème enfant, les modifier de la façon que "
+"vous voulez. Vous aurez les meilleurs examples de codage des themes par "
+"défaut de WordPress et les meilleurs hacks des thèmes enfants. Lisez le "
+"readme.txt pour un guide de démarrage rapide."
+
+#. Author of the plugin/theme
+msgid "Tomas Mackevicius"
+msgstr "Tomas Mackevicius"
+
+#. Template Name of the plugin/theme
+msgid "Front Page Template"
+msgstr "Modèle de page principale"
+
+#. Template Name of the plugin/theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr "Modèle de page pleine largeur, pas de barre latérale"
+
+#. Template Name of the plugin/theme
+msgid "Links"
+msgstr "Liens"

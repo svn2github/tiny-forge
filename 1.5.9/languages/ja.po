@@ -1,0 +1,524 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tiny Forge 1.5.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/tiny-forge\n"
+"POT-Creation-Date: 2014-06-09 05:18:54+00:00\n"
+"PO-Revision-Date: 2014-06-09 16:06+0900\n"
+"Last-Translator: ISHIKAWA Koutarou <stein2nd@gmail.com>\n"
+"Language-Team: Tiny Forge Team <services@mtomas.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:15
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "これはちょっとばつが悪いですね…"
+
+#: 404.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"我々ではお探しの物を見つけることが出来ないようです。検索ならお手伝いできると"
+"思います。"
+
+#: archive.php:27
+msgid "Daily Archives: %s"
+msgstr "日次アーカイブ: %s"
+
+#: archive.php:29
+msgid "Monthly Archives: %s"
+msgstr "月次アーカイブ: %s"
+
+#: archive.php:29
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:31
+msgid "Yearly Archives: %s"
+msgstr "年次アーカイブ: %s"
+
+#: archive.php:31
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:33
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: author.php:31
+msgid "Author Archives: %s"
+msgstr "著者アーカイブ: %s"
+
+#: author.php:63
+msgid "About <span itemprop=\"name\">%s</span>"
+msgstr "<span itemprop=\"name\">%s</span>について"
+
+#: category.php:20
+msgid "%s"
+msgstr "%s"
+
+#: comments.php:29
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo;に関する%1$s件のコメント"
+
+#: comments.php:40
+msgid "Comment navigation"
+msgstr "コメント・ナビゲーション"
+
+#: comments.php:41
+msgid "&larr; Older Comments"
+msgstr "&larr; 古いコメント"
+
+#: comments.php:42
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: content-aside.php:13 content-image.php:11 content-link.php:12
+#: content-quote.php:11 content-status.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:18 content-link.php:16 content-quote.php:15
+#: content-status.php:13
+msgid "Permalink to %s"
+msgstr "%sへのパーマリンク"
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35 content.php:23
+msgid "Leave a reply"
+msgstr "コメントを残す"
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35
+msgid "1 Reply"
+msgstr "1件のコメント"
+
+#: content-aside.php:22 content-image.php:21 content-link.php:20
+#: content-quote.php:19 content-status.php:35
+msgid "% Replies"
+msgstr "%件のコメント"
+
+#: content-aside.php:25 content-image.php:24 content-link.php:23
+#: content-page.php:22 content-quote.php:22 content-status.php:38
+#: content.php:25 content.php:52 functions.php:925 image.php:35
+#: page-templates/links.php:26
+msgid "Edit"
+msgstr "編集"
+
+#: content-link.php:10
+msgid "Link"
+msgstr "リンク"
+
+#: content-none.php:11 index.php:47 search.php:32
+msgid "Nothing Found"
+msgstr "何も見つからない"
+
+#: content-none.php:15 index.php:51
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+"何も発見できません。検索すれば、関連記事の発見をお手伝いできると思います。"
+
+#: content-page.php:19 content.php:46 image.php:100
+msgid "Pages:"
+msgstr "ページ:"
+
+#: content.php:14
+msgid "Featured article"
+msgstr "特集記事"
+
+#: content.php:23 content.php:31
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: content.php:23 content.php:31
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: content.php:45 functions.php:528
+msgid "...continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "…続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:64
+msgid "About %s"
+msgstr "%sについて"
+
+#: content.php:68
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%sによる記事をすべて表示する <span class=\"meta-nav\">&rarr;</span>"
+
+#: footer.php:50
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:50
+msgid "Semantic Personal Publishing Platform"
+msgstr "セマンティックなパーソナル・パブリッシング・プラットフォーム"
+
+#: footer.php:50
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#: functions.php:151
+msgid "Primary Menu"
+msgstr "プライマリー・メニュー"
+
+#: functions.php:191
+msgid "Main Sidebar"
+msgstr "メイン・サイドバー"
+
+#: functions.php:193
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+"専用のウィジェットを持つオプショナルなフロントページ・テンプレートを除く、記"
+"事とページに表示されます"
+
+#: functions.php:201
+msgid "First Front Page Widget Area"
+msgstr "第１フロントページ・ウィジェット・エリア"
+
+#: functions.php:203 functions.php:213
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+"固定フロントページとして設定されているページで、オプショナルなフロントペー"
+"ジ・テンプレートを使用している際に表示されます"
+
+#: functions.php:211
+msgid "Second Front Page Widget Area"
+msgstr "第２フロントページ・ウィジェット・エリア"
+
+#: functions.php:221
+msgid "First Footer Widget Area"
+msgstr "第１フッター・ウィジェット・エリア"
+
+#: functions.php:223
+msgid ""
+"Found at the bottom of every page (except 404s) as the footer. Left Side."
+msgstr ""
+"(404エラーを除く)すべてのページの下部に、フッター(左側部分)として表示されます"
+
+#: functions.php:231
+msgid "Second Footer Widget Area"
+msgstr "第２フッター・ウィジェット・エリア"
+
+#: functions.php:233
+msgid "Found at the bottom of every page (except 404s) as the footer. Center."
+msgstr ""
+"(404エラーを除く)すべてのページの下部に、フッター(中央部分)として表示されます"
+
+#: functions.php:241
+msgid "Third Footer Widget Area"
+msgstr "第３フッター・ウィジェット・エリア"
+
+#: functions.php:243
+msgid ""
+"Found at the bottom of every page (except 404s) as the footer. Right Side."
+msgstr ""
+"(404エラーを除く)すべてのページの下部に、フッター(右側部分)として表示されます"
+
+#: functions.php:251
+msgid "Footer Copyright Widget Area"
+msgstr "フッター著作権ウィジェット・エリア"
+
+#: functions.php:253
+msgid "Found at the bottom of every page as the footer. Left Side."
+msgstr "すべてのページの下部に、フッター(左側部分)として表示されます"
+
+#: functions.php:302
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:309
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions.php:716
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: functions.php:755 single.php:18
+msgid "Post navigation"
+msgstr "記事ナビゲーション"
+
+#: functions.php:756
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 古い記事"
+
+#: functions.php:757
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しい記事 <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:799 functions.php:846
+msgid "View all posts by %s"
+msgstr "%sによる記事をすべて表示する"
+
+#. Translators: 1 is the date and 2 is the author's name
+#: functions.php:811
+msgid ""
+"<span class=\"by-author\">%2$s</span> <span class=\"meta-separator\">&bull;</"
+"span> %1$s "
+msgstr ""
+"<span class=\"by-author\">%2$s</span><span class=\"meta-separator\">&bull;</"
+"span>%1$s "
+
+#. Translators: used between list items, there is a space after the comma
+#: functions.php:832
+msgid "</span>, <span itemprop=\"articleSection\">"
+msgstr "</span>, <span itemprop=\"articleSection\">"
+
+#. Translators: used between list items, there is a space after the comma
+#: functions.php:835
+msgid ", "
+msgstr ""
+
+#. Translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's
+#. name.
+#: functions.php:852
+msgid ""
+"Posted in <span itemprop=\"articleSection\">%1$s</span>. Tags: <span "
+"itemprop=\"keywords\">%2$s</span> on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+"<span class=\"by-author\">%4$s</span>が%3$sに投稿。カテゴリー: <span "
+"itemprop=\"articleSection\">%1$s</span> タグ: <span itemprop=\"keywords\">"
+"%2$s</span>。"
+
+#: functions.php:854
+msgid ""
+"Posted in <span itemprop=\"articleSection\">%1$s</span> on %3$s<span class="
+"\"by-author\"> by %4$s</span>."
+msgstr ""
+"<span class=\"by-author\">%4$s</span>が%3$sに投稿。カテゴリー: <span "
+"itemprop=\"articleSection\">%1$s</span>。"
+
+#: functions.php:856
+msgid "Posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "<span class=\"by-author\">%4$s</span>が%3$sに投稿。"
+
+#: functions.php:893
+msgid "Pingback:"
+msgstr "ピングバック"
+
+#: functions.php:893
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: functions.php:908
+msgid "Post author"
+msgstr "記事の著者"
+
+#. translators: 1: date, 2: time
+#: functions.php:914
+msgid "%1$s at %2$s"
+msgstr "%1$sの%2$s"
+
+#: functions.php:920
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは、管理者の承認待ちです。"
+
+#: functions.php:929
+msgid "Reply"
+msgstr "コメント"
+
+#: header.php:37
+msgid ""
+"Advanced features of this website require that you enable JavaScript in your "
+"browser. Thank you!"
+msgstr ""
+"このwebサイトの先進的な機能は、ブラウザーのJavaScriptを有効にする必要がありま"
+"す。Thank you！"
+
+#: header.php:59
+msgid "Menu"
+msgstr "メニュー"
+
+#: header.php:60
+msgid "Skip to content"
+msgstr "コンテンツに移動する"
+
+#: image.php:24
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\" itemprop=\"datePublished\"><time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\" itemprop=\"contentUrl\">%4$s &times; %5$s</a> in <a href="
+"\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr ""
+"<span class=\"entry-date\" itemprop=\"datePublished\"><time class=\"entry-"
+"date\" datetime=\"%1$s\">%2$s</time></span><span class=\"meta-prep meta-prep-"
+"entry-date\">に公開</span>された&ldquo;<a href=\"%6$s\" title=\"%7$sに戻る\" "
+"rel=\"gallery\">%8$s</a>&rdquo;内の&ldquo;<a href=\"%3$s\" title=\"フルサイズ"
+"画像へのリンク\" itemprop=\"contentUrl\">%4$s &times; %5$s</a>&rdquo;。"
+
+#: image.php:39
+msgid "&larr; Previous"
+msgstr "&larr; 前"
+
+#: image.php:40
+msgid "Next &rarr;"
+msgstr "次 &rarr;"
+
+#: inc/admin-notice.php:23
+msgid ""
+"Thank you for using Tiny Forge! Please check out a valuable user guide: <a "
+"target=\"_blank\" href=\"%s\">How to use Tiny Forge and its child themes: a "
+"comprehensive guide</a>. Happy coding! <a href=\"%s\">(hide this message)</a>"
+msgstr ""
+"Tiny Forge をご利用戴きありがとうございます！価値あるユーザーガイド<a target="
+"\"_blank\" href=\"%s\">Tiny Forge 及び子テーマの使い方: 総合ガイド</a>をご覧"
+"ください。コーディングを楽しんで！<a href=\"%s\">(このメッセージを非表示にす"
+"る)</a>"
+
+#: inc/custom-header.php:56
+msgctxt "header image description"
+msgid "First"
+msgstr "第１"
+
+#: inc/custom-header.php:61
+msgctxt "header image description"
+msgid "Second"
+msgstr "第２"
+
+#: inc/custom-header.php:66
+msgctxt "header image description"
+msgid "Third"
+msgstr "第３"
+
+#: inc/theme-customizer.php:23
+msgid "Site Title Color"
+msgstr "サイト・タイトルの色"
+
+#: inc/theme-customizer.php:26
+msgid "Display Site Title &amp; Tagline"
+msgstr "サイト・タイトル &amp; キャッチフレーズとして表示する"
+
+#: inc/theme-customizer.php:36 inc/theme-customizer.php:46
+msgid "Logo"
+msgstr "ロゴ"
+
+#: index.php:36
+msgid "No posts to display"
+msgstr "表示する記事がない"
+
+#: index.php:40
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+"初めての記事を公開する準備ができましたか？<a href=\"%1$s\">ここで始めよう</"
+"a>。"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: search.php:36
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"検索語句と何も一致しません。別のキーワードでもう一度やり直してください。"
+
+#: single.php:19
+msgctxt "Previous post link"
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: single.php:20
+msgctxt "Next post link"
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: tag.php:19
+msgid "Tag Archives: %s"
+msgstr "タグ・アーカイブ: %s"
+
+#. Theme Name of the plugin/theme
+msgid "Tiny Forge"
+msgstr "Tiny Forge"
+
+#. Theme URI of the plugin/theme
+msgid "http://mtomas.com/1/tiny-forge-free-mobile-first-wordpress-theme"
+msgstr "http://mtomas.com/1/tiny-forge-free-mobile-first-wordpress-theme"
+
+#. Description of the plugin/theme
+msgid ""
+"Tiny Forge theme encompasses all the best features of the default WordPress "
+"themes in one place, adds more usability and code improvements and ensures "
+"fast start with very extensive documentation! It features elegant mobile-"
+"first HTML5 ready structure of Twenty Twelve, custom per-post headers and "
+"three footer widgets from Twenty Eleven (plus forth footer widget to insert "
+"your copyright information), icon webfont support from Elusive-Icons, Google "
+"Fonts support and Schema.org microdata format support. It's all there, you "
+"have everything in one neat package. Also you can upload your custom Header "
+"Logo to display it next to Site Title and Description. Along with the main "
+"theme you will find an example of a child theme - an easy way to start "
+"developing with child themes! Tiny Forge can be used as a learning tool or "
+"your own little web development \"framework\". With its unique \"Coding Tips "
+"system\" Tiny Forge helps to understand how to extend parent themes and "
+"build your own child themes, hacking them the way you want it. You get the "
+"best coding examples from default WordPress themes and the best hacks from "
+"the child theme. Please read readme.txt for a quick start guide, tips and "
+"tricks. For more information please see: http://mtomas.com/389/tiny-forge-"
+"framework-child-themes-comprehensive-guide"
+msgstr ""
+"Tiny Forge テーマは、デフォルト WordPress テーマのすべての最高の機能を網羅"
+"し、ユーザビリティとコードのより良い改善を加え、非常に豊富なドキュメントと高"
+"速起動を実現しています！Twenty Twelve 由来の優雅なモバイル・ファーストHTML5レ"
+"ディな構造、Twenty Eleven 由来のカスタム記事ヘッダー及び３つのフッターウィ"
+"ジェット(そして、著作権情報を挿入する第４のフッターウィジェット)、Elusive-"
+"Icons 由来のアイコンwebフォントのサポート、Googleフォントのサポート、Schema."
+"org マイクロデータ・フォーマットのサポートを提供します。そのすべてがこれに、"
+"１つのパッケージの中に、あります。カスタム・ヘッダーロゴをアップロードして、"
+"サイト・タイトル及び説明の隣に表示することもできます。メインテーマと共に子"
+"テーマの例が入っています - 子テーマ開発を始める簡単な方法です！Tiny Forge は"
+"学習ツール、或いは独自の小規模web開発&ldquo;フレームワーク&rdquo;として利用で"
+"きます。Tiny Forge は、&ldquo;コーディング・ティップス・システム&rdquo;を用い"
+"ることで、親テーマを拡張して子テーマを開発する方法を理解し、望む方法でそれら"
+"をハックできるようにします。デフォルト WordPress テーマからは最高のコーディン"
+"グ例を、子テーマからは最高のハックを、得る事ができます。クィックスタート・ガ"
+"イド、ティップス及びトリックについては readme.txt をお読みください。詳細情報"
+"については<a href=\"http://mtomas.com/389/tiny-forge-framework-child-themes-"
+"comprehensive-guide\">Tiny Forge 及び子テーマの使い方: 総合ガイド</a>をご覧く"
+"ださい。"
+
+#. Author of the plugin/theme
+msgid "Tomas Mackevicius"
+msgstr "Tomas Mackevicius"
+
+#. Author URI of the plugin/theme
+msgid "http://mtomas.com"
+msgstr "http://mtomas.com"
+
+#. Template Name of the plugin/theme
+msgid "Front Page Template"
+msgstr "フロントページ・テンプレート"
+
+#. Template Name of the plugin/theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr "最大幅ページ・テンプレート（サイドバーなし）"
+
+#. Template Name of the plugin/theme
+msgid "Links"
+msgstr "リンク"
+
+#~ msgid "http://wordpress.org/themes/tiny-forge"
+#~ msgstr "http://wordpress.org/themes/tiny-forge"
