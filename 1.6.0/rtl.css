@@ -1,0 +1,304 @@
+/*
+Theme Name: Tiny Forge
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+@link http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+caption,
+th,
+td {
+	text-align: right;
+}
+
+/* Repeatable patterns
+-------------------------------------------------------------- */
+
+/* Images */
+.site-content .gallery-columns-4 .gallery-item {
+	padding-left: 2%;
+	padding-right: 0;
+}
+.site-content .gallery-columns-5 .gallery-item {
+	padding-left: 2%;
+	padding-right: 0;
+}
+
+/* Navigation */
+.nav-previous,
+.previous-image {
+	float: right;
+}
+.nav-next,
+.next-image {
+	float: left;
+	text-align: left;
+}
+/* Tip05 - Mark main navigation menu items, containing children with special css class */
+/* Main navigation menu items with drop-down children will be marked by a distinct icon (caret down) via style.css */
+/* http://stackoverflow.com/questions/8448978/wordpress-how-do-i-know-if-a-menu-item-has-children */
+.nav-menu .menu-item-has-children > a:after,
+.nav-menu .page_item_has_children > a:after {
+	padding: 0 5px 2px 0;
+	padding: 0 0.357142857rem 0.142857143rem 0;
+}
+.sub-menu a {
+	text-align: right;
+}
+.sub-menu .menu-item-has-children > a:after,
+.sub-menu .page_item_has_children > a:after {
+	content: "\e6fd"; /* el-icon-chevron-left */
+	text-align: left;
+	position: absolute;
+	left: 8px;
+	top: 16px;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font: normal 9px/1 'Elusive-Icons';
+}
+
+/* Author profiles */
+.author-avatar {
+	float: right;
+}
+.author-description {
+	float: right;
+	margin-right: 15px;
+	margin-right: 1.071428571rem;
+	margin-left: auto;
+}
+
+
+/* Main Content
+----------------------------------------------- */
+
+#site-title-wrapper {
+	float: right;
+}
+.comment-content ol,
+.comment-content ul {
+	margin: 0 24px 0 0;
+	margin: 0 1.714285714rem 0 0;
+}
+
+
+/* Basic post styling
+-------------------------------------------------------------- */
+
+.entry-content li,
+.comment-content li {
+	margin: 0 24px 0 0;
+	margin: 0 1.714285714rem 0 0;
+}
+.entry-content td,
+.comment-content td {
+	padding: 6px 0 6px 10px;
+}
+/* Styles for blockquote */
+.entry-content blockquote {
+	padding: 24px 58px 24px 0;
+	padding: 1.714285714rem 4.142857143rem 1.714285714rem 0;
+}
+.comment-content blockquote {
+	padding: 12px 34px 12px 0;
+	padding: 0.857142857rem 2.428571429rem 0.857142857rem 0;
+}
+/* Tip21 - Icon webfont support implementation and examples */
+.entry-content blockquote p:first-child:before,
+.comment-content blockquote p:first-child:before {
+	padding-left: 0px;
+	padding-left: 0rem;
+}
+.entry-content blockquote p:first-child:before {
+	margin-right: -68px;
+	margin-right: -4.857142857rem;
+}
+.comment-content blockquote p:first-child:before {
+	margin-right: -34px;
+	margin-right: -2.428571429rem;
+}
+
+/* Aside posts */
+article.format-aside .aside {
+	border-right: 22px solid #a8bfe8;
+	border-left: none;
+}
+
+/* Link posts */
+article.format-link header {
+	float: left;
+}
+article.format-link .entry-content {
+	float: right;
+}
+
+/* Status posts */
+.format-status .entry-header img {
+	float: right;
+	margin-left: 21px;
+	margin-left: 1.5rem;
+	margin-right: 0;
+}
+
+
+/* Comment styling
+-------------------------------------------------------------- */
+
+.comments-area article header img {
+	float: right;
+}
+.comments-area article header cite,
+.comments-area article header time {
+	margin-right: 85px;
+	margin-right: 6.071428571rem;
+	margin-left: auto;
+}
+.comments-area article header h4 {
+	left: 0;
+	right: auto;
+}
+.comments-area .bypostauthor cite span {
+	margin-right: 5px;
+	margin-right: 0.357142857rem;
+	margin-left: auto;
+}
+
+/* Comment form */
+#respond h3#reply-title #cancel-comment-reply-link {
+	margin-right: 10px;
+	margin-right: 0.714285714rem;
+	margin-left: auto;
+}
+label ~ span.required {
+	float: right;
+	margin: -18px -16px 0 0;
+	margin: -1.285714286rem -1.142857143rem 0 0;
+}
+
+
+/* Footer
+----------------------------------------------- */
+
+#site-info {
+	float: right;
+	text-align: right;
+}
+#site-generator {
+	float: left;
+	text-align: left;
+}
+
+
+/* Front page template styling
+-------------------------------------------------------------- */
+
+.template-front-page .widget-area .widget_text img {
+	float: right;
+	margin: 8px 0 8px 24px;
+	margin: 0.571428571rem 0 0.571428571rem 1.714285714rem;
+}
+
+
+/* Widget styling
+-------------------------------------------------------------- */
+
+.widget-area .widget ul ul {
+	margin-right: 12px;
+	margin-right: 0.857142857rem;
+	margin-left: auto;
+}
+.widget-area .textwidget li {
+	margin-left: auto;
+	margin-right: 36px;
+	margin-right: 2.571428571rem;
+}
+.widget_recent_entries .post-date,
+.widget_rss .rss-date {
+	margin-right: 12px;
+	margin-right: 0.857142857rem;
+	margin-left: auto;
+}
+#wp-calendar th,
+#wp-calendar td,
+#wp-calendar caption {
+	text-align: right;
+}
+#wp-calendar #next {
+	padding-left: 24px;
+	padding-left: 1.714285714rem;
+	text-align: left;
+	padding-right: 0;
+}
+
+
+/* Media queries
+-------------------------------------------------------------- */
+
+/* Minimum width of 770 pixels. */
+@media screen and (min-width: 770px) {
+	.site-content,
+	.template-front-page.has-post-thumbnail article {
+		float: right;
+	}
+	.widget-area,
+	.entry-page-image {
+		float: left;
+	}
+	.site-header h1,
+	.site-header h2 {
+		text-align: right;
+	}
+	.template-front-page .widget-area .widget_text img {
+		float: right;
+		margin: 8px 0 8px 24px;
+	}
+	.template-front-page .widget-area .widget,
+	.template-front-page.two-sidebars .widget-area .front-widgets {
+		float: right;
+	}
+	.template-front-page .widget-area .widget:nth-child(odd) {
+		clear: left;
+	}
+	.template-front-page .widget-area .widget:nth-child(even),
+	.template-front-page.two-sidebars .widget-area .front-widgets + .front-widgets {
+		float: left;
+		margin: 0 24px 0;
+		margin: 0 1.714285714rem 0;
+	}
+	.main-navigation ul.nav-menu,
+ 	.main-navigation div.nav-menu > ul {
+		text-align: right;
+	}
+	.main-navigation li {
+		margin: 0 0 0 40px;
+		margin: 0 0 0 2.857142857rem;
+	}
+	.main-navigation li ul ul {
+		margin-right: 0;
+		right: 100%;
+		left: auto;
+	}
+	.main-navigation ul li:hover > ul {
+		border-right: 0;
+		border-left: none;
+	}
+	.commentlist .children {
+		margin-right: 48px;
+		margin-right: 3.428571429rem;
+		margin-left: auto;
+	}
+	/* Theme Options - Site Header Logo */
+	#site-logo {
+		float: right;
+		margin: 0 0 24px 24px;
+		margin: 0 0 1.714285714rem 1.714285714rem;
+	}
+}
